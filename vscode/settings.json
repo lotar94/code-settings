@@ -1,0 +1,23 @@
+{
+    "terminal.integrated.localEchoStyle": "dim",
+    "editor.fontFamily": "'Menlo for Powerline'",
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.startupEditor": "none",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "window.zoomLevel": 1.2,
+    "editor.renderWhitespace": "all",
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "notebook.formatOnSave.enabled": true,
+    "editor.formatOnSave": true,
+    "update.mode": "manual",
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Vim Dark Medium",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "window.commandCenter": false,
+    "workbench.statusBar.visible": false
+  }
+  
