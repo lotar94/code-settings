@@ -1,23 +1,32 @@
 {
-    "terminal.integrated.localEchoStyle": "dim",
-    "editor.fontFamily": "'Menlo for Powerline'",
-    "terminal.integrated.fontFamily": "monospace",
-    "workbench.startupEditor": "none",
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "window.zoomLevel": 1.2,
-    "editor.renderWhitespace": "all",
-    "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "notebook.formatOnSave.enabled": true,
-    "editor.formatOnSave": true,
-    "update.mode": "manual",
-    "window.titleBarStyle": "custom",
-    "workbench.colorTheme": "Vim Dark Medium",
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.minimap.enabled": false,
-    "workbench.activityBar.location": "hidden",
-    "window.commandCenter": false,
-    "workbench.statusBar.visible": false
-  }
-  
+  "terminal.integrated.localEchoStyle": "dim",
+  "editor.fontFamily": "'Menlo for Powerline'",
+  "terminal.integrated.fontFamily": "monospace",
+  "workbench.startupEditor": "none",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "editor.renderWhitespace": "none",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "notebook.formatOnSave.enabled": true,
+  "editor.formatOnSave": true,
+  "update.mode": "manual",
+  "window.titleBarStyle": "custom",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": false,
+  "window.commandCenter": false,
+  "workbench.statusBar.visible": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.layoutControl.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "window.zoomLevel": 2,
+  "workbench.activityBar.location": "hidden",
+  "breadcrumbs.enabled": false,
+  "editor.linkedEditing": true,
+  "hediet.vscode-drawio.resizeImages": null,
+  "workbench.colorTheme": "Default Dark+",
+  "editor.guides.bracketPairs": true
+
+}
