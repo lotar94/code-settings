@@ -1,8 +1,18 @@
+precmd() {
+    print -P "%F{green}─────────────────────────────────────────────────────────────────%f"
+}
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+
+
+export GOPATH="$HOME/go" # set GOPATH (path to where go is installed)
+export PATH=$PATH:$GOPATH/bin # append GOPATH to PATH 
+
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -106,3 +116,7 @@ alias k="kubectl"
 
 
 export PATH="/Users/lotar/.npm-global/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+    [ -s "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" ] && \. "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" # This loads nvm
+    [ -s "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm" ] && \. "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
